@@ -1,13 +1,33 @@
-# ICP Matrix: AI-Powered Market Research Platform
-# Version: 1.0 | Last Updated: 2026-03-23
+# ICP Matrix: HolyShift — Live Market Intelligence Platform
+# Version: 1.1 | Last Updated: 2026-03-23
 # Status: Draft — awaiting worst-customer data and tech stack validation
+
+---
+
+## Product Context
+
+**Company:** HolyShift
+**Product:** Autonomous AI Task Force — a Live Context engine that monitors LinkedIn, X,
+social media, and industry forums to extract real-time market truth.
+
+**Three AI Agents (internal product language — use in sales conversations):**
+- The Challenger: Pressure-tests roadmaps, exposes hidden friction before launch
+- The Thought Partner: High-context brainstorming against live market sentiment
+- The Growth Hacker: Extracts customer vocabulary for hooks, scripts, and campaign angles
+
+**Primary competitive displacement:**
+- Market research agencies (static PDFs, slow, expensive)
+- Focus groups (stale, biased, not real-time)
+- Internal assumptions / gut-feel strategy
+
+**Core positioning:** "We don't just give you a map; we give you the GPS."
 
 ---
 
 ## Overview
 
-Two primary segments identified from initial input. Each segment has a distinct trigger,
-buyer profile, and outreach strategy. Do NOT blend in a single campaign.
+Two primary segments. Each maps to distinct HolyShift value props and buyer personas.
+Do NOT blend in a single campaign.
 
 ```
 Segment A: "PMF-Seeking Startups"   → Primary segment
@@ -20,47 +40,55 @@ Segment B: "Established Innovators" → Secondary segment
 
 > Early-stage startups that need to understand what real users think, feel, and say
 > in order to find (or confirm) product-market fit before they run out of runway.
+> Core fear: shipping the wrong thing, or the right thing with the wrong message.
+
+### HolyShift Value Prop for This Segment
+
+They can't afford a research agency. They don't have time for months of customer discovery.
+HolyShift gives them the market truth their competitors are missing — before launch, not after.
+
+**Primary angle:** "Find your best customers before launch. Ship what people actually asked for."
 
 ### Firmographic Profile
 
 | Attribute | Tier 1 | Tier 2 | Tier 3 | DQ |
 |-----------|--------|--------|--------|----|
-| Company size | 5–30 employees | 31–75 employees | 2–4 employees (solo founder) | 1 person / 75+ employees |
-| Revenue | Pre-revenue to $500K ARR | $500K–$2M ARR | $2M–$5M ARR | $5M+ ARR (moved past PMF) |
-| Industry | B2B SaaS, Consumer App, Marketplace | D2C brand, Fintech, Edtech | Hardware/IoT, Agency | Services-only, Non-profit |
+| Company size | 5–30 employees | 31–75 employees | 2–4 employees | 1 person / 75+ employees |
+| Revenue | Pre-revenue to $500K ARR | $500K–$2M ARR | $2M–$5M ARR | $5M+ ARR (past PMF urgency) |
+| Industry | B2B SaaS, Consumer App, Marketplace | D2C brand, Fintech, Edtech | Hardware/IoT | Services-only, Non-profit |
 | Geography | US, UK, Canada | Western Europe, Australia | LATAM, SEA | Restricted markets |
 | Business model | Product-led, subscription | Sales-led SaaS | E-commerce | Pure services / consulting |
 | Growth stage | Pre-seed to Seed | Series A (early) | Series A (late) | Series B+ |
 
 ### Target Personas (Ranked by Priority)
 
-| Rank | Title Pattern | Seniority | Decision Role | Key Pain |
-|------|--------------|-----------|---------------|----------|
-| P1 | CEO / Co-founder | C-Suite | Economic buyer + Champion | "I don't know why users churn or won't convert — I'm guessing at messaging" |
-| P2 | Head of Product / CPO | VP/Director | Champion | "I'm manually reading hundreds of reviews and Reddit threads to find patterns" |
-| P3 | Head of Growth / Marketing | Director/Manager | Influencer | "Our positioning feels off but I can't point to specific evidence" |
+| Rank | Title | Seniority | Decision Role | HolyShift Angle |
+|------|-------|-----------|---------------|-----------------|
+| P1 | CEO / Co-founder | C-Suite | Economic buyer + Champion | "Stop guessing what your market wants. Know exactly — before you commit the budget." |
+| P2 | Head of Product / CPO | VP/Director | Champion | "Your AI Task Force reads every forum thread and Reddit post so you don't have to." |
+| P3 | Head of Growth / Marketing | Director/Manager | Influencer | "Extract the exact vocabulary your customers use — then weaponize it in every campaign." |
 
 ### Intent Signals (Ranked by Weight)
 
 | Signal | Weight (1–5) | Detection Source |
 |--------|-------------|-----------------|
-| Actively hiring a Product Manager or Head of Growth | 5 | LinkedIn Jobs, Otta |
+| Hiring a Product Manager or Head of Growth | 5 | LinkedIn Jobs, Otta |
 | Recently launched on Product Hunt or App Store (< 90 days) | 5 | Product Hunt, App Store |
 | Founder posting about "finding PMF" or "user research" on LinkedIn/X | 4 | Social monitoring |
 | Recent seed or pre-seed funding announcement | 4 | Crunchbase, LinkedIn |
 | Job posting mentions "customer discovery" or "user interviews" | 4 | LinkedIn Jobs |
-| Posting jobs in customer success or onboarding roles | 3 | LinkedIn Jobs |
-| Founder active on communities (Indie Hackers, Slack groups) | 3 | Community listening |
+| Hiring for customer success or onboarding roles | 3 | LinkedIn Jobs |
+| Founder active on Indie Hackers, Slack startup communities | 3 | Community listening |
 | No detectable intent signal | 1 | — |
 
 ### Technographic Fit
 
 | Tool/Stack Signal | Signal Strength | Why It Matters |
 |-------------------|----------------|----------------|
-| Uses Intercom, Mixpanel, or Amplitude | Strong | Actively tracking users, budget for tools |
-| Uses Notion or Linear for product management | Medium | Modern stack, high tool adoption |
-| Uses Typeform / Maze for user research | Strong | Existing research practice, proven budget |
-| Zapier or Make in stack | Medium | Automation-friendly, will integrate |
+| Uses Mixpanel, Amplitude, or Intercom | Strong | Actively tracking users, budget for tools |
+| Uses Notion or Linear for product management | Medium | Modern stack, high tool adoption rate |
+| Uses Typeform / Maze for user research | Strong | Existing research practice — easy budget conversation |
+| Zapier or Make in stack | Medium | Automation-friendly, will integrate outputs |
 | No product analytics tools at all | Weak | May lack maturity to act on insights |
 
 ### Scoring Model
@@ -88,17 +116,31 @@ Segment B: "Established Innovators" → Secondary segment
 | Tier | Criteria | Strategy | Volume |
 |------|----------|----------|--------|
 | Tier 1 | 50+ pts | Hyper-personalized: reference their product, recent launch, or hiring signal. Multi-channel (email + LinkedIn). 8+ touches. | 5–10% of list |
-| Tier 2 | 37–49 pts | Signal-based personalization: reference funding or growth stage. Email-first + LinkedIn connect. 5–6 touches. | 25–35% of list |
-| Tier 3 | 25–36 pts | Bucket messaging: "early-stage founders struggling with PMF." Email only. 3–4 touches. | 40–50% of list |
+| Tier 2 | 37–49 pts | Signal-based: reference funding round or growth stage. Email-first + LinkedIn connect. 5–6 touches. | 25–35% of list |
+| Tier 3 | 25–36 pts | Bucket messaging: "early-stage founders shipping without market validation." Email only. 3–4 touches. | 40–50% of list |
 | DQ | < 25 pts | Do not contact | Remove |
 
 ---
 
 ## Segment B: Established Innovators
 
-> Grown companies with an existing product base that need a competitive or messaging
-> edge — either to out-position competitors or to communicate their product's value
-> more effectively to their market.
+> Growth-stage or mature companies that need a competitive or messaging edge.
+> They're not guessing anymore — but their assumptions are built on stale data,
+> expensive agencies, or internal bias. HolyShift replaces the research firm.
+
+### HolyShift Value Prop for This Segment
+
+They've already paid for focus groups that told them nothing new. They've hired agencies
+that delivered a 60-page PDF three months later. HolyShift is always-on, real-time,
+and speaks their market's exact dialect.
+
+**Three distinct angles by persona:**
+
+| Persona | HolyShift Angle | One-liner |
+|---------|-----------------|-----------|
+| Innovation Lead | Stress-Test the Roadmap | "Find the friction before it costs you millions — not after launch." |
+| Marketing Director | Weaponize the Narrative | "Stop guessing which hook converts. We find the exact emotional triggers your market responds to — right now." |
+| Growth / Sales Lead | Intelligence-Driven Expansion | "Enter new markets with a pre-validated advantage. We map the unspoken needs before you commit the budget." |
 
 ### Firmographic Profile
 
@@ -106,41 +148,54 @@ Segment B: "Established Innovators" → Secondary segment
 |-----------|--------|--------|--------|----|
 | Company size | 50–300 employees | 301–1,000 employees | 20–49 employees | < 20 or > 1,000 |
 | Revenue | $5M–$50M ARR | $50M–$150M ARR | $2M–$5M ARR | < $2M or $150M+ |
-| Industry | B2B SaaS, Tech, Fintech | Consumer goods, Retail, Media | Healthcare, Edtech | Highly regulated w/ no research budget |
+| Industry | B2B SaaS, Tech, Fintech | Consumer goods, Retail, Media | Healthcare, Edtech | Highly regulated, no research budget |
 | Geography | US, UK, Canada | Western Europe, Australia | LATAM, SEA | Restricted markets |
 | Business model | Subscription / SaaS | E-commerce / DTC | Marketplace | Pure services |
-| Growth stage | Series B–D / Profitable SME | Series E+ | Post-IPO (innovation arm) | Pre-revenue |
+| Growth stage | Series B–D / Profitable SME | Series E+ | Post-IPO innovation arm | Pre-revenue |
 
 ### Target Personas (Ranked by Priority)
 
-| Rank | Title Pattern | Seniority | Decision Role | Key Pain |
-|------|--------------|-----------|---------------|----------|
-| P1 | VP of Marketing / CMO | VP/C-Suite | Economic buyer | "We're losing ground to competitors and don't know exactly why customers prefer them" |
-| P2 | Head of Innovation / Director of Innovation | Director/VP | Champion | "We need customer insight at scale to drive our product roadmap without expensive research agencies" |
-| P3 | CEO / Managing Director (SME) | C-Suite | Economic buyer + Champion | "I want to know what the market is actually saying about us vs. competitors — without hiring a research firm" |
+| Rank | Title | Seniority | Decision Role | HolyShift Angle |
+|------|-------|-----------|---------------|-----------------|
+| P1 | Marketing Director / VP Marketing / CMO | VP/C-Suite | Economic buyer | Weaponize the Narrative — find the exact emotional triggers and competitive gaps in your market right now |
+| P2 | Head of Innovation / Director of Innovation | Director/VP | Champion | Stress-Test the Roadmap — validate new features and service lines with real-world pushback before launch |
+| P3 | CEO / MD (SME) | C-Suite | Economic buyer + Champion | All three edges — replaces the research firm entirely |
+| P4 | VP Sales / Head of Growth | VP/Director | Champion | Intelligence-Driven Expansion — enter new territories with pre-validated intelligence |
 
 ### Intent Signals (Ranked by Weight)
 
 | Signal | Weight (1–5) | Detection Source |
 |--------|-------------|-----------------|
-| Competitor just launched a major feature or rebranded | 5 | News, LinkedIn |
-| Company entered a new market or launched new product line | 5 | Press releases, LinkedIn |
 | Hiring a Market Research, Consumer Insights, or Competitive Intel role | 5 | LinkedIn Jobs |
+| Competitor just launched a major feature or rebranded | 5 | News, LinkedIn, press releases |
+| Company entered a new market or launched new product line | 5 | Press releases, LinkedIn |
 | New CMO or VP Marketing hired in last 6 months | 4 | LinkedIn |
+| Job posting mentions "voice of customer," "customer insights," or "market intelligence" | 4 | LinkedIn Jobs |
 | Company ran a fundraise or M&A event in last 12 months | 4 | Crunchbase, news |
-| Hiring content or brand team (signals messaging investment) | 3 | LinkedIn Jobs |
-| Mentioned "voice of customer" or "customer insights" in job posts | 4 | LinkedIn Jobs |
+| Hiring content, brand, or campaign team (signals messaging investment) | 3 | LinkedIn Jobs |
 | No detectable intent | 1 | — |
+
+### Competitive Displacement Signals (Agency / Focus Group Users)
+
+These indicate the prospect is already buying research — making them a prime displacement target:
+
+| Signal | Weight | Source |
+|--------|--------|--------|
+| Job post references "external research partner" or "agency management" | 5 | LinkedIn Jobs |
+| LinkedIn posts mentioning focus groups, NPS projects, or brand tracking studies | 4 | LinkedIn |
+| Uses Qualtrics, SurveyMonkey Enterprise, or Medallia | 4 | Technographic tools |
+| Uses Brandwatch, Sprinklr, or Mention (social listening) | 5 | Technographic tools — direct category |
+| Company has a dedicated "Consumer Insights" or "Market Research" team | 4 | LinkedIn company page |
 
 ### Technographic Fit
 
 | Tool/Stack Signal | Signal Strength | Why It Matters |
 |-------------------|----------------|----------------|
-| Uses Qualtrics, SurveyMonkey, or Medallia | Strong | Active research budget, replacing/augmenting |
-| Uses HubSpot or Salesforce Marketing Cloud | Strong | Established marketing ops, budget for tools |
-| Uses Brandwatch, Sprinklr, or Mention | Very Strong | Direct competitor — active buyer in category |
-| Uses Tableau or Looker | Medium | Data-driven culture, will value AI insights |
-| No research tooling visible | Weak | May not prioritize structured insights |
+| Uses Brandwatch, Sprinklr, or Mention | Very Strong | Direct category — active buyer, easy displacement conversation |
+| Uses Qualtrics, SurveyMonkey, or Medallia | Strong | Paying for research, budget proven — upgrade path |
+| Uses HubSpot or Salesforce Marketing Cloud | Strong | Marketing ops maturity, budget for tools |
+| Uses Tableau or Looker | Medium | Data-driven culture, will value AI-generated insights |
+| No research or listening tooling | Weak | May not have budget or culture for structured intelligence |
 
 ### Scoring Model
 
@@ -149,28 +204,29 @@ Segment B: "Established Innovators" → Secondary segment
 | Firmographic | 50–300 employees | 8 | 4 | 2 |
 | Firmographic | Series B–D or profitable SME | 8 | 4 | 2 |
 | Firmographic | B2B SaaS / Tech / Fintech | 6 | 3 | 1 |
-| Technographic | Uses research/listening tools | 8 | 4 | 2 |
-| Technographic | Uses Salesforce or HubSpot | 4 | 2 | 1 |
+| Technographic | Uses Brandwatch / Sprinklr / Mention | 10 | 5 | 2 |
+| Technographic | Uses Qualtrics / SurveyMonkey / Medallia | 8 | 4 | 2 |
+| Technographic | Uses HubSpot or Salesforce | 4 | 2 | 1 |
 | Intent | Hiring Market Research / Insights role | 10 | 5 | 2 |
 | Intent | New CMO / VP Mktg in last 6 months | 8 | 4 | 2 |
 | Intent | New product launch or market entry | 10 | 5 | 2 |
 | Persona | VP Marketing / Head of Innovation as contact | 6 | 3 | 1 |
-| **Total possible** | | **68** | | |
+| **Total possible** | | **78** | | |
 
 **Tier thresholds:**
-- Tier 1 (Bullseye): 55+ pts
-- Tier 2 (Strong Fit): 41–54 pts
-- Tier 3 (Good Fit): 27–40 pts
-- DQ: Below 27 pts OR firmographic DQ flag triggered
+- Tier 1 (Bullseye): 62+ pts
+- Tier 2 (Strong Fit): 46–61 pts
+- Tier 3 (Good Fit): 30–45 pts
+- DQ: Below 30 pts OR firmographic DQ flag triggered
 
 ### Outreach Strategy by Tier
 
 | Tier | Criteria | Strategy | Volume |
 |------|----------|----------|--------|
-| Tier 1 | 55+ pts | Hyper-personalized: reference their specific competitive landscape, recent move, or new hire. Multi-channel. 8+ touches. | 5–10% of list |
-| Tier 2 | 41–54 pts | Signal-based: reference market shift or new hire. Email-first + LinkedIn. 5–6 touches. | 25–35% of list |
-| Tier 3 | 27–40 pts | Bucket messaging: "companies looking for competitive market intelligence." Email only. 3–4 touches. | 40–50% of list |
-| DQ | < 27 pts | Do not contact | Remove |
+| Tier 1 | 62+ pts | Hyper-personalized: reference specific competitive move, new hire, or agency spend signal. Call out what they're currently using and why HolyShift replaces it. Multi-channel. 8+ touches. | 5–10% of list |
+| Tier 2 | 46–61 pts | Signal-based: reference market shift, new hire, or research tool in stack. Email-first + LinkedIn. 5–6 touches. | 25–35% of list |
+| Tier 3 | 30–45 pts | Bucket messaging by persona angle (Innovation / Marketing / Growth). Email only. 3–4 touches. | 40–50% of list |
+| DQ | < 30 pts | Do not contact | Remove |
 
 ---
 
@@ -179,10 +235,11 @@ Segment B: "Established Innovators" → Secondary segment
 Remove from all lists immediately if:
 - Already a customer
 - Competitor or partner
-- Company has < 2 employees (no budget)
+- Company has < 5 employees (no budget)
 - Pure services firm with no product to research
+- Strategy built entirely on internal/proprietary data (no need for external market signals)
 - Invalid/unverifiable contact data
-- Operates in a market you cannot serve (regulatory, geo)
+- Operates in a market HolyShift cannot serve (regulatory, geo)
 
 ---
 
@@ -212,11 +269,12 @@ Remove from all lists immediately if:
 
 ## Open Questions (Validate to Sharpen Matrix)
 
-1. **Worst customer profile** — Who has churned or been a painful deal? What did they have in common? This will sharpen DQ criteria and tier thresholds.
-2. **Tech stack of best customers** — What tools do they already use? Helps identify integration-based triggers.
-3. **Average deal size by segment** — Informs how much outreach investment each tier deserves.
-4. **Sales cycle length** — Determines sequence length and follow-up cadence.
-5. **Primary acquisition to date** — How have customers found you so far? Inbound, referral, or outbound? Affects scoring weights.
+1. **Worst customer profile** — Who has churned or been a painful deal? Tightens DQ criteria and tier thresholds.
+2. **Tech stack of best customers** — Confirm which tools they use. Validates technographic scoring weights.
+3. **Average deal size by segment** — Determines outreach investment per tier (Seg A likely lower ACV than Seg B).
+4. **Sales cycle length** — Drives sequence length and follow-up cadence design.
+5. **Primary acquisition to date** — Inbound, referral, or outbound? Affects scoring weights and where to invest.
+6. **Which of the 3 agent roles (Challenger / Thought Partner / Growth Hacker) resonates most in calls?** — Determines lead messaging angle.
 
 ---
 
@@ -224,9 +282,9 @@ Remove from all lists immediately if:
 
 | Step | Action | Owner |
 |------|--------|-------|
-| 1 | Interview 5 best customers — validate triggers, titles, and stack | Founder / Sales |
+| 1 | Interview 5 best customers — confirm triggers, titles, and competitive displacement story | Founder / Sales |
 | 2 | Identify 5 churned/bad-fit customers — build DQ pattern | Founder / Sales |
-| 3 | Build first prospect lists targeting Tier 1 of each segment | GTM / Sales |
-| 4 | Launch test campaign (50–100 contacts per segment) | GTM |
-| 5 | After 4 weeks: compare reply/meeting rate by tier, update scoring weights | GTM |
-| 6 | Re-run matrix quarterly with campaign data | GTM |
+| 3 | Build prospect lists targeting Tier 1 of each segment | GTM / Sales |
+| 4 | Launch test campaign (50–100 contacts per segment, one persona angle per campaign) | GTM |
+| 5 | After 4 weeks: compare reply/meeting rate by tier and persona angle | GTM |
+| 6 | Re-run scoring weights with campaign data | GTM |
