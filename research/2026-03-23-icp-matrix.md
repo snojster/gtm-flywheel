@@ -1,5 +1,5 @@
 # ICP Matrix: HolyShift — Live Market Intelligence Platform
-# Version: 1.1 | Last Updated: 2026-03-23
+# Version: 1.2 | Last Updated: 2026-03-23
 # Status: Draft — awaiting worst-customer data and tech stack validation
 
 ---
@@ -24,14 +24,31 @@ social media, and industry forums to extract real-time market truth.
 
 ---
 
+## Strategic Focus
+
+**Primary buyer:** Marketing Director / VP Marketing / CMO and Growth/Sales Lead
+within Segment B (Established Innovators).
+
+**Rationale:** Innovation is episodic — it only activates around a product cycle.
+Marketing and Growth are always-on — there is always a campaign to optimize, a new
+channel to test, or a territory to enter. This translates to:
+- Shorter, more predictable sales cycles
+- Easier live intent signals (they are always spending, always hiring)
+- Larger deal flow and more consistent pipeline
+
+Innovation Lead (Stress-Test the Roadmap) is a valid use case but a secondary persona.
+Pursue opportunistically when product launch signals appear, not as a primary motion.
+
+---
+
 ## Overview
 
-Two primary segments. Each maps to distinct HolyShift value props and buyer personas.
+Two segments. Each maps to distinct HolyShift value props and buyer personas.
 Do NOT blend in a single campaign.
 
 ```
-Segment A: "PMF-Seeking Startups"   → Primary segment
-Segment B: "Established Innovators" → Secondary segment
+Segment B: "Established Innovators" → PRIMARY — Marketing and Growth buyers
+Segment A: "PMF-Seeking Startups"   → Secondary
 ```
 
 ---
@@ -134,13 +151,18 @@ They've already paid for focus groups that told them nothing new. They've hired 
 that delivered a 60-page PDF three months later. HolyShift is always-on, real-time,
 and speaks their market's exact dialect.
 
-**Three distinct angles by persona:**
+**Primary buyer angles (always-on, campaign and revenue pressure every quarter):**
+
+| Persona | HolyShift Angle | One-liner |
+|---------|-----------------|-----------|
+| **Marketing Director / CMO** | **Weaponize the Narrative** | "Stop guessing which hook converts. We find the exact emotional triggers your market responds to — right now." |
+| **Growth / Sales Lead** | **Intelligence-Driven Expansion** | "Enter new markets with a pre-validated advantage. We map the unspoken needs before you commit the budget." |
+
+**Secondary buyer angle (episodic — activate only when product launch signals appear):**
 
 | Persona | HolyShift Angle | One-liner |
 |---------|-----------------|-----------|
 | Innovation Lead | Stress-Test the Roadmap | "Find the friction before it costs you millions — not after launch." |
-| Marketing Director | Weaponize the Narrative | "Stop guessing which hook converts. We find the exact emotional triggers your market responds to — right now." |
-| Growth / Sales Lead | Intelligence-Driven Expansion | "Enter new markets with a pre-validated advantage. We map the unspoken needs before you commit the budget." |
 
 ### Firmographic Profile
 
@@ -155,24 +177,34 @@ and speaks their market's exact dialect.
 
 ### Target Personas (Ranked by Priority)
 
-| Rank | Title | Seniority | Decision Role | HolyShift Angle |
-|------|-------|-----------|---------------|-----------------|
-| P1 | Marketing Director / VP Marketing / CMO | VP/C-Suite | Economic buyer | Weaponize the Narrative — find the exact emotional triggers and competitive gaps in your market right now |
-| P2 | Head of Innovation / Director of Innovation | Director/VP | Champion | Stress-Test the Roadmap — validate new features and service lines with real-world pushback before launch |
-| P3 | CEO / MD (SME) | C-Suite | Economic buyer + Champion | All three edges — replaces the research firm entirely |
-| P4 | VP Sales / Head of Growth | VP/Director | Champion | Intelligence-Driven Expansion — enter new territories with pre-validated intelligence |
+| Rank | Title | Seniority | Decision Role | HolyShift Angle | Why Primary |
+|------|-------|-----------|---------------|-----------------|-------------|
+| P1 | Marketing Director / VP Marketing / CMO | VP/C-Suite | Economic buyer | Weaponize the Narrative — find exact emotional triggers and competitive gaps right now | Always-on. Media budget is live every quarter. Attribution pressure is constant. |
+| P2 | VP Sales / Head of Growth | VP/Director | Champion / Economic buyer | Intelligence-Driven Expansion — enter new territories with pre-validated intelligence | Always-on. Revenue targets don't pause. New territory/channel initiatives never stop. |
+| P3 | CEO / MD (SME) | C-Suite | Economic buyer + Champion | All three edges — replaces the research firm entirely | Primary buyer in smaller companies where Marketing and Growth report to CEO |
+| P4 | Head of Innovation / Director of Innovation | Director/VP | Champion | Stress-Test the Roadmap — validate features with real-world pushback | Secondary. Episodic. Target only when new product or feature launch signal detected. |
 
 ### Intent Signals (Ranked by Weight)
 
+**Always-on signals (Marketing / Growth buyers — prioritize these):**
+
 | Signal | Weight (1–5) | Detection Source |
 |--------|-------------|-----------------|
-| Hiring a Market Research, Consumer Insights, or Competitive Intel role | 5 | LinkedIn Jobs |
-| Competitor just launched a major feature or rebranded | 5 | News, LinkedIn, press releases |
-| Company entered a new market or launched new product line | 5 | Press releases, LinkedIn |
-| New CMO or VP Marketing hired in last 6 months | 4 | LinkedIn |
-| Job posting mentions "voice of customer," "customer insights," or "market intelligence" | 4 | LinkedIn Jobs |
-| Company ran a fundraise or M&A event in last 12 months | 4 | Crunchbase, news |
-| Hiring content, brand, or campaign team (signals messaging investment) | 3 | LinkedIn Jobs |
+| New CMO, VP Marketing, or VP Sales / Head of Growth hired in last 6 months | 5 | LinkedIn — new exec wants wins fast |
+| Competitor just launched a major feature, rebranded, or cut price | 5 | News, LinkedIn — urgent messaging review triggered |
+| Company entering a new market or distribution channel | 5 | Press releases, LinkedIn — Growth buyer actively needs intelligence |
+| Hiring a Market Research, Consumer Insights, or Competitive Intel role | 5 | LinkedIn Jobs — budget proven, research gap identified |
+| Job posting mentions "market intelligence," "voice of customer," or "customer insights" | 4 | LinkedIn Jobs |
+| Hiring content, brand, paid media, or campaign team | 4 | LinkedIn Jobs — active marketing investment, needs narrative edge |
+| Company ran a fundraise or M&A in last 12 months | 4 | Crunchbase, news — growth mandate, new markets likely |
+| Company scaling headcount 20%+ YoY | 3 | LinkedIn company page |
+
+**Episodic signals (Innovation buyer — treat as add-on, not primary trigger):**
+
+| Signal | Weight (1–5) | Detection Source |
+|--------|-------------|-----------------|
+| Hiring Head of Innovation or Product role | 4 | LinkedIn Jobs |
+| New product or feature announced publicly | 4 | Press releases, LinkedIn |
 | No detectable intent | 1 | — |
 
 ### Competitive Displacement Signals (Agency / Focus Group Users)
@@ -204,20 +236,22 @@ These indicate the prospect is already buying research — making them a prime d
 | Firmographic | 50–300 employees | 8 | 4 | 2 |
 | Firmographic | Series B–D or profitable SME | 8 | 4 | 2 |
 | Firmographic | B2B SaaS / Tech / Fintech | 6 | 3 | 1 |
-| Technographic | Uses Brandwatch / Sprinklr / Mention | 10 | 5 | 2 |
-| Technographic | Uses Qualtrics / SurveyMonkey / Medallia | 8 | 4 | 2 |
-| Technographic | Uses HubSpot or Salesforce | 4 | 2 | 1 |
-| Intent | Hiring Market Research / Insights role | 10 | 5 | 2 |
-| Intent | New CMO / VP Mktg in last 6 months | 8 | 4 | 2 |
-| Intent | New product launch or market entry | 10 | 5 | 2 |
-| Persona | VP Marketing / Head of Innovation as contact | 6 | 3 | 1 |
-| **Total possible** | | **78** | | |
+| Technographic | Uses Brandwatch / Sprinklr / Mention (social listening) | 10 | 5 | 2 |
+| Technographic | Uses Qualtrics / SurveyMonkey / Medallia (research budget) | 8 | 4 | 2 |
+| Technographic | Uses HubSpot or Salesforce Marketing Cloud | 4 | 2 | 1 |
+| Intent | New CMO / VP Marketing / VP Sales hired < 6 months | 12 | 6 | 2 |
+| Intent | Competitor moved (launch, rebrand, price change) | 10 | 5 | 2 |
+| Intent | Company entering new market or channel | 10 | 5 | 2 |
+| Intent | Hiring Market Research / Consumer Insights role | 10 | 5 | 2 |
+| Intent | Hiring marketing / campaign / brand team | 6 | 3 | 1 |
+| Persona | VP Marketing or VP Sales / Growth as primary contact | 8 | 4 | 1 |
+| **Total possible** | | **100** | | |
 
 **Tier thresholds:**
-- Tier 1 (Bullseye): 62+ pts
-- Tier 2 (Strong Fit): 46–61 pts
-- Tier 3 (Good Fit): 30–45 pts
-- DQ: Below 30 pts OR firmographic DQ flag triggered
+- Tier 1 (Bullseye): 78+ pts
+- Tier 2 (Strong Fit): 58–77 pts
+- Tier 3 (Good Fit): 38–57 pts
+- DQ: Below 38 pts OR firmographic DQ flag triggered
 
 ### Outreach Strategy by Tier
 
